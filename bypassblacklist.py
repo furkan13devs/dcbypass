@@ -7,11 +7,11 @@ import pyfiglet
 
 # Note : the str "word" is only the raw input by user, it will not change...
 word = ""
-banner = pyfiglet.figlet_format("DISCORD BLACKLISTED WORDS BYPASS 2022")
+banner = pyfiglet.figlet_format("DISCORD BLACKLISTED WORDS BYPASS 2023")
 
 print(banner)
 print("A tool by Xprogrammer777 \n")
-word = str(input("[*] Type the word you want to bypass: "))
+word = str(input("[*] BYPASS ETMEK İSTEDİĞİNİZ KELİMEYİ YAZIN: "))
 
 def startprocess():
 
@@ -43,25 +43,25 @@ def startprocess():
         bypassed = word.replace('w', '\u051D')
         
     else:
-        print("[!] Sorry, can't bypass this word, we will release a new update to bypass all words")
+        print("[!]Üzgünüm, bu kelimeyi atlayamıyoruz, tüm kelimeleri atlamak için yeni bir güncelleme yayınlayacağız.")
         time.sleep(1)
-        print("[!] QUITTING!")
+        print("[!] çıkış yapılıyor!")
         quit()
         
-    print("[*] Porcess succefully finished!")
+    print("[*] işlem başarıyla tamamlandı!")
     
     time.sleep(1)
 
-    print("[*] COPY AND PASTE THIS WORD: ", bypassed)
+    print("[*] BU SÖZCÜĞÜ KOPYALAYIP YAPIŞTIRIN: ", bypassed)
         
     #print the result
 
 
 if word == "":
     time.sleep(1)
-    print("[!] Please type a word")
+    print("[!] bir kelime yazın")
     time.sleep(1)
 else:
-    print("[*] Starting...")
+    print("[*] işte benim sıram başlıyoruz...")
     time.sleep(1)
     startprocess()
