@@ -7,10 +7,10 @@ import pyfiglet
 
 # Note : the str "word" is only the raw input by user, it will not change...
 word = ""
-banner = pyfiglet.figlet_format("DISCORD BLACKLISTED WORDS BYPASS 2023")
+banner = pyfiglet.figlet_format("SWANTEX DC BYPASS")
 
 print(banner)
-print("A tool by Xprogrammer777 \n")
+print("A tool by SWANTEX \n")
 word = str(input("[*] BYPASS ETMEK İSTEDİĞİNİZ KELİMEYİ YAZIN: "))
 
 def startprocess():
