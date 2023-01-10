@@ -19,7 +19,7 @@ alias bypass='python3 ~/dcbypass/bypassblacklist.py'
 
 sleep 2
 printf "${RED}[*] yükleme tamamlandı (veya gereksinimler zaten karşılandı)${NC}\n"
-echo 'Do you want to run the program? y/n'
+echo 'PROGRAMI ÇALIŞTIRMAK İSTİYORMUSUN? y/n'
 read launch
 if [ $launch == "y" ]
 then
